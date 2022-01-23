@@ -1,8 +1,12 @@
 .navbar-brand {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
-.nav {
+.navbar {
   background-color: $light;
-  height: 70px;
   text-transform: uppercase;
+  padding: 0 5%;
+
+  &collapse {
+    background-color: $light;
+  }
 }

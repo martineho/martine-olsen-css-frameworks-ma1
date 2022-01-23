@@ -3,16 +3,17 @@
   border-radius: 10px;
   background-color: $light;
   height: 250px;
+  box-shadow: 0 2px 15px #0000000a;
 
   &--border {
+    @extend .block;
     background-color: white;
-    border: solid 2px $primary;
-    border-radius: 15px;
+    border: solid 3px $primary;
   }
 
   &--filled {
+    @extend .block;
     background-color: $primary;
-    border: solid 2px white;
-    border-radius: 15px;
+    border: solid 3px white;
   }
 }

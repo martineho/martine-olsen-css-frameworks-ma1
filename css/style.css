@@ -1,11 +1,15 @@
 .navbar-brand {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
-.nav {
+.navbar {
   background-color: #f4f3ee;
-  height: 70px;
   text-transform: uppercase;
+  padding: 0 5%;
+}
+
+.navbarcollapse {
+  background-color: #f4f3ee;
 }
 
 html,
@@ -24,6 +28,10 @@ body {
   background-color: #e5e5e5;
 }
 
+.container {
+  padding: 5% 0;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,6 +45,13 @@ footer {
   padding: 0.5em;
   font-size: 0.8rem;
   color: #8d8d8d;
+  padding: 10px 5%;
+}
+
+@media (max-width: 450px) {
+  footer {
+    display: block;
+  }
 }
 
 * {
@@ -44,26 +59,29 @@ footer {
 }
 
 h1, .h1 {
-  font-weight: 400;
+  font-weight: 200;
+  text-align: center;
+  padding-bottom: 5%;
+  color: #463f3a;
 }
 
-.block {
+.block, .block--border, .block--filled {
   margin: 15px 5px;
   border-radius: 10px;
   background-color: #f4f3ee;
   height: 250px;
+  -webkit-box-shadow: 0 2px 15px #0000000a;
+          box-shadow: 0 2px 15px #0000000a;
 }
 
 .block--border {
   background-color: white;
-  border: solid 2px #c32c72;
-  border-radius: 15px;
+  border: solid 3px #c32c72;
 }
 
 .block--filled {
   background-color: #c32c72;
-  border: solid 2px white;
-  border-radius: 15px;
+  border: solid 3px white;
 }
 
 :root {
