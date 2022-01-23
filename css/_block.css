@@ -1,5 +1,6 @@
 .block {
-  margin: 15px;
+  margin: 15px 5px;
   border-radius: 10px;
   background-color: var(--secondary-colour);
+  height: 250px;
 }
