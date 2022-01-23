@@ -1,0 +1,18 @@
+.block {
+  margin: 15px 5px;
+  border-radius: 10px;
+  background-color: $light;
+  height: 250px;
+
+  &--border {
+    background-color: white;
+    border: solid 2px $primary;
+    border-radius: 15px;
+  }
+
+  &--filled {
+    background-color: $primary;
+    border: solid 2px white;
+    border-radius: 15px;
+  }
+}
