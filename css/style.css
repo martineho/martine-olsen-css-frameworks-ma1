@@ -51,6 +51,7 @@ footer {
 @media (max-width: 450px) {
   footer {
     display: block;
+    text-align: center;
   }
 }
 
